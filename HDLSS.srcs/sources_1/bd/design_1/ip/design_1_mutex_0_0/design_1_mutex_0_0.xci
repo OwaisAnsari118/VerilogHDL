@@ -1,0 +1,4096 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_1_mutex_0_0",
+    "cell_name": "mutex_0",
+    "component_reference": "xilinx.com:ip:mutex:2.1",
+    "ip_revision": "13",
+    "gen_directory": "../../../../../../HDLSS.gen/sources_1/bd/design_1/ip/design_1_mutex_0_0",
+    "parameters": {
+      "component_parameters": {
+        "C_S0_AXI_ACLK_FREQ_HZ": [ { "value": "100000000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S0_AXI_ACLK_FREQ_MHZ": [ { "value": "100.0", "resolve_type": "user", "format": "float", "usage": "all" } ],
+        "C_S0_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S0_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S0_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S0_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S1_AXI_ACLK_FREQ_HZ": [ { "value": "100000000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S1_AXI_ACLK_FREQ_MHZ": [ { "value": "100.0", "resolve_type": "user", "format": "float", "usage": "all" } ],
+        "C_S1_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S1_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S1_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S1_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S2_AXI_ACLK_FREQ_HZ": [ { "value": "100000000", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S2_AXI_ACLK_FREQ_MHZ": [ { "value": "100.0", "resolve_type": "user", "format": "float", "enabled": false, "usage": "all" } ],
+        "C_S2_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S2_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S2_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S2_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S3_AXI_ACLK_FREQ_HZ": [ { "value": "100000000", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S3_AXI_ACLK_FREQ_MHZ": [ { "value": "100.0", "resolve_type": "user", "format": "float", "enabled": false, "usage": "all" } ],
+        "C_S3_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S3_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S3_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S3_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S4_AXI_ACLK_FREQ_HZ": [ { "value": "100000000", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S4_AXI_ACLK_FREQ_MHZ": [ { "value": "100.0", "resolve_type": "user", "format": "float", "enabled": false, "usage": "all" } ],
+        "C_S4_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S4_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S4_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S4_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S5_AXI_ACLK_FREQ_HZ": [ { "value": "100000000", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S5_AXI_ACLK_FREQ_MHZ": [ { "value": "100.0", "resolve_type": "user", "format": "float", "enabled": false, "usage": "all" } ],
+        "C_S5_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S5_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S5_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S5_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S6_AXI_ACLK_FREQ_HZ": [ { "value": "100000000", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S6_AXI_ACLK_FREQ_MHZ": [ { "value": "100.0", "resolve_type": "user", "format": "float", "enabled": false, "usage": "all" } ],
+        "C_S6_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S6_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S6_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S6_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S7_AXI_ACLK_FREQ_HZ": [ { "value": "100000000", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S7_AXI_ACLK_FREQ_MHZ": [ { "value": "100.0", "resolve_type": "user", "format": "float", "enabled": false, "usage": "all" } ],
+        "C_S7_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S7_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "C_S7_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_S7_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_ASYNC_CLKS": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_NUM_SYNC_FF": [ { "value": "2", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_NUM_AXI": [ { "value": "2", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_ENABLE_USER": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_OWNER_ID_WIDTH": [ { "value": "8", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_ENABLE_HW_PROT": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_NUM_MUTEX": [ { "value": "16", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "design_1_mutex_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "C_FAMILY": [ { "value": "kintex7", "resolve_type": "generated", "usage": "all" } ],
+        "C_NUM_AXI": [ { "value": "2", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_S0_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "C_S0_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "C_S0_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_S0_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_S1_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "C_S1_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "C_S1_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_S1_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_S2_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S2_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S2_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S2_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S3_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S3_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S3_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S3_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S4_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S4_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S4_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S4_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S5_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S5_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S5_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S5_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S6_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S6_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S6_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S6_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S7_AXI_BASEADDR": [ { "value": "0xFFFFFFFF", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S7_AXI_HIGHADDR": [ { "value": "0x00000000", "resolve_type": "generated", "format": "bitString", "enabled": false, "usage": "all" } ],
+        "C_S7_AXI_ADDR_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_S7_AXI_DATA_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_ASYNC_CLKS": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_NUM_SYNC_FF": [ { "value": "2", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_ENABLE_USER": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_OWNER_ID_WIDTH": [ { "value": "8", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_ENABLE_HW_PROT": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_NUM_MUTEX": [ { "value": "16", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "kintex7" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7k70t" } ],
+        "NEXTGEN_VERSAL": [ { "value": "0" } ],
+        "PACKAGE": [ { "value": "fbv676" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "13" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../HDLSS.gen/sources_1/bd/design_1/ip/design_1_mutex_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "S0_AXI_ACLK": [ { "direction": "in", "driver_value": "0" } ],
+        "S0_AXI_ARESETN": [ { "direction": "in", "driver_value": "0" } ],
+        "S0_AXI_AWADDR": [ { "direction": "in", "size_left": "31", "size_right": "0", "driver_value": "0" } ],
+        "S0_AXI_AWVALID": [ { "direction": "in", "driver_value": "0" } ],
+        "S0_AXI_AWREADY": [ { "direction": "out" } ],
+        "S0_AXI_WDATA": [ { "direction": "in", "size_left": "31", "size_right": "0", "driver_value": "0" } ],
+        "S0_AXI_WSTRB": [ { "direction": "in", "size_left": "3", "size_right": "0", "driver_value": "0" } ],
+        "S0_AXI_WVALID": [ { "direction": "in", "driver_value": "0" } ],
+        "S0_AXI_WREADY": [ { "direction": "out" } ],
+        "S0_AXI_BRESP": [ { "direction": "out", "size_left": "1", "size_right": "0" } ],
+        "S0_AXI_BVALID": [ { "direction": "out" } ],
+        "S0_AXI_BREADY": [ { "direction": "in", "driver_value": "0" } ],
+        "S0_AXI_ARADDR": [ { "direction": "in", "size_left": "31", "size_right": "0", "driver_value": "0" } ],
+        "S0_AXI_ARVALID": [ { "direction": "in", "driver_value": "0" } ],
+        "S0_AXI_ARREADY": [ { "direction": "out" } ],
+        "S0_AXI_RDATA": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "S0_AXI_RRESP": [ { "direction": "out", "size_left": "1", "size_right": "0" } ],
+        "S0_AXI_RVALID": [ { "direction": "out" } ],
+        "S0_AXI_RREADY": [ { "direction": "in", "driver_value": "0" } ],
+        "S1_AXI_ACLK": [ { "direction": "in", "driver_value": "0" } ],
+        "S1_AXI_ARESETN": [ { "direction": "in", "driver_value": "0" } ],
+        "S1_AXI_AWADDR": [ { "direction": "in", "size_left": "31", "size_right": "0", "driver_value": "0" } ],
+        "S1_AXI_AWVALID": [ { "direction": "in", "driver_value": "0" } ],
+        "S1_AXI_AWREADY": [ { "direction": "out" } ],
+        "S1_AXI_WDATA": [ { "direction": "in", "size_left": "31", "size_right": "0", "driver_value": "0" } ],
+        "S1_AXI_WSTRB": [ { "direction": "in", "size_left": "3", "size_right": "0", "driver_value": "0" } ],
+        "S1_AXI_WVALID": [ { "direction": "in", "driver_value": "0" } ],
+        "S1_AXI_WREADY": [ { "direction": "out" } ],
+        "S1_AXI_BRESP": [ { "direction": "out", "size_left": "1", "size_right": "0" } ],
+        "S1_AXI_BVALID": [ { "direction": "out" } ],
+        "S1_AXI_BREADY": [ { "direction": "in", "driver_value": "0" } ],
+        "S1_AXI_ARADDR": [ { "direction": "in", "size_left": "31", "size_right": "0", "driver_value": "0" } ],
+        "S1_AXI_ARVALID": [ { "direction": "in", "driver_value": "0" } ],
+        "S1_AXI_ARREADY": [ { "direction": "out" } ],
+        "S1_AXI_RDATA": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "S1_AXI_RRESP": [ { "direction": "out", "size_left": "1", "size_right": "0" } ],
+        "S1_AXI_RVALID": [ { "direction": "out" } ],
+        "S1_AXI_RREADY": [ { "direction": "in", "driver_value": "0" } ]
+      },
+      "interfaces": {
+        "S0_AXI": {
+          "vlnv": "xilinx.com:interface:aximm:1.0",
+          "abstraction_type": "xilinx.com:interface:aximm_rtl:1.0",
+          "mode": "slave",
+          "memory_map_ref": "S0_AXI",
+          "parameters": {
+            "DATA_WIDTH": [ { "value": "32", "value_src": "auto", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PROTOCOL": [ { "value": "AXI4LITE", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_HZ": [ { "value": "100000000", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "ID_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "ADDR_WIDTH": [ { "value": "32", "value_src": "auto", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "AWUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "ARUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "WUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "RUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "BUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "READ_WRITE_MODE": [ { "value": "READ_WRITE", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_BURST": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_LOCK": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_PROT": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_CACHE": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_QOS": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_REGION": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_WSTRB": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_BRESP": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_RRESP": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "SUPPORTS_NARROW_BURST": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "NUM_READ_OUTSTANDING": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "NUM_WRITE_OUTSTANDING": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "MAX_BURST_LENGTH": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "value_permission": "bd", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "NUM_READ_THREADS": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "NUM_WRITE_THREADS": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "RUSER_BITS_PER_BYTE": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "WUSER_BITS_PER_BYTE": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "ARADDR": [ { "physical_name": "S0_AXI_ARADDR" } ],
+            "ARREADY": [ { "physical_name": "S0_AXI_ARREADY" } ],
+            "ARVALID": [ { "physical_name": "S0_AXI_ARVALID" } ],
+            "AWADDR": [ { "physical_name": "S0_AXI_AWADDR" } ],
+            "AWREADY": [ { "physical_name": "S0_AXI_AWREADY" } ],
+            "AWVALID": [ { "physical_name": "S0_AXI_AWVALID" } ],
+            "BREADY": [ { "physical_name": "S0_AXI_BREADY" } ],
+            "BRESP": [ { "physical_name": "S0_AXI_BRESP" } ],
+            "BVALID": [ { "physical_name": "S0_AXI_BVALID" } ],
+            "RDATA": [ { "physical_name": "S0_AXI_RDATA" } ],
+            "RREADY": [ { "physical_name": "S0_AXI_RREADY" } ],
+            "RRESP": [ { "physical_name": "S0_AXI_RRESP" } ],
+            "RVALID": [ { "physical_name": "S0_AXI_RVALID" } ],
+            "WDATA": [ { "physical_name": "S0_AXI_WDATA" } ],
+            "WREADY": [ { "physical_name": "S0_AXI_WREADY" } ],
+            "WSTRB": [ { "physical_name": "S0_AXI_WSTRB" } ],
+            "WVALID": [ { "physical_name": "S0_AXI_WVALID" } ]
+          }
+        },
+        "CLK.S0_AXI_ACLK": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "ASSOCIATED_BUSIF": [ { "value": "S0_AXI", "value_src": "constant", "value_permission": "bd", "usage": "all" } ],
+            "ASSOCIATED_RESET": [ { "value": "S0_AXI_ARESETN", "value_src": "constant", "value_permission": "bd", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "100000000", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "value_permission": "bd", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "CLK": [ { "physical_name": "S0_AXI_ACLK" } ]
+          }
+        },
+        "RST.S0_AXI_ARESETN": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant", "value_permission": "bd", "usage": "all" } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "RST": [ { "physical_name": "S0_AXI_ARESETN" } ]
+          }
+        },
+        "S1_AXI": {
+          "vlnv": "xilinx.com:interface:aximm:1.0",
+          "abstraction_type": "xilinx.com:interface:aximm_rtl:1.0",
+          "mode": "slave",
+          "memory_map_ref": "S1_AXI",
+          "parameters": {
+            "DATA_WIDTH": [ { "value": "32", "value_src": "auto", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PROTOCOL": [ { "value": "AXI4LITE", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_HZ": [ { "value": "100000000", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "ID_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "ADDR_WIDTH": [ { "value": "32", "value_src": "auto", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "AWUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "ARUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "WUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "RUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "BUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "READ_WRITE_MODE": [ { "value": "READ_WRITE", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_BURST": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_LOCK": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_PROT": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_CACHE": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_QOS": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_REGION": [ { "value": "0", "value_src": "constant", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_WSTRB": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_BRESP": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_RRESP": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "SUPPORTS_NARROW_BURST": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "NUM_READ_OUTSTANDING": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "NUM_WRITE_OUTSTANDING": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "MAX_BURST_LENGTH": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "value_permission": "bd", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "NUM_READ_THREADS": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "NUM_WRITE_THREADS": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "RUSER_BITS_PER_BYTE": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "WUSER_BITS_PER_BYTE": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "ARADDR": [ { "physical_name": "S1_AXI_ARADDR" } ],
+            "ARREADY": [ { "physical_name": "S1_AXI_ARREADY" } ],
+            "ARVALID": [ { "physical_name": "S1_AXI_ARVALID" } ],
+            "AWADDR": [ { "physical_name": "S1_AXI_AWADDR" } ],
+            "AWREADY": [ { "physical_name": "S1_AXI_AWREADY" } ],
+            "AWVALID": [ { "physical_name": "S1_AXI_AWVALID" } ],
+            "BREADY": [ { "physical_name": "S1_AXI_BREADY" } ],
+            "BRESP": [ { "physical_name": "S1_AXI_BRESP" } ],
+            "BVALID": [ { "physical_name": "S1_AXI_BVALID" } ],
+            "RDATA": [ { "physical_name": "S1_AXI_RDATA" } ],
+            "RREADY": [ { "physical_name": "S1_AXI_RREADY" } ],
+            "RRESP": [ { "physical_name": "S1_AXI_RRESP" } ],
+            "RVALID": [ { "physical_name": "S1_AXI_RVALID" } ],
+            "WDATA": [ { "physical_name": "S1_AXI_WDATA" } ],
+            "WREADY": [ { "physical_name": "S1_AXI_WREADY" } ],
+            "WSTRB": [ { "physical_name": "S1_AXI_WSTRB" } ],
+            "WVALID": [ { "physical_name": "S1_AXI_WVALID" } ]
+          }
+        },
+        "CLK.S1_AXI_ACLK": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "ASSOCIATED_BUSIF": [ { "value": "S1_AXI", "value_src": "constant", "value_permission": "bd", "usage": "all" } ],
+            "ASSOCIATED_RESET": [ { "value": "S1_AXI_ARESETN", "value_src": "constant", "value_permission": "bd", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "100000000", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "value_permission": "bd", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "CLK": [ { "physical_name": "S1_AXI_ACLK" } ]
+          }
+        },
+        "RST.S1_AXI_ARESETN": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant", "value_permission": "bd", "usage": "all" } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "RST": [ { "physical_name": "S1_AXI_ARESETN" } ]
+          }
+        },
+        "CLK.S2_AXI_ACLK": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "ASSOCIATED_BUSIF": [ { "value": "S2_AXI", "value_src": "constant", "usage": "all" } ],
+            "ASSOCIATED_RESET": [ { "value": "S2_AXI_ARESETN", "value_src": "constant", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "100000000", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "RST.S2_AXI_ARESETN": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant", "usage": "all" } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "CLK.S3_AXI_ACLK": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "ASSOCIATED_BUSIF": [ { "value": "S3_AXI", "value_src": "constant", "usage": "all" } ],
+            "ASSOCIATED_RESET": [ { "value": "S3_AXI_ARESETN", "value_src": "constant", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "100000000", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "RST.S3_AXI_ARESETN": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant", "usage": "all" } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "CLK.S4_AXI_ACLK": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "ASSOCIATED_BUSIF": [ { "value": "S4_AXI", "value_src": "constant", "usage": "all" } ],
+            "ASSOCIATED_RESET": [ { "value": "S4_AXI_ARESETN", "value_src": "constant", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "100000000", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "RST.S4_AXI_ARESETN": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant", "usage": "all" } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "CLK.S5_AXI_ACLK": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "ASSOCIATED_BUSIF": [ { "value": "S5_AXI", "value_src": "constant", "usage": "all" } ],
+            "ASSOCIATED_RESET": [ { "value": "S5_AXI_ARESETN", "value_src": "constant", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "100000000", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "RST.S5_AXI_ARESETN": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant", "usage": "all" } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "CLK.S6_AXI_ACLK": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "ASSOCIATED_BUSIF": [ { "value": "S6_AXI", "value_src": "constant", "usage": "all" } ],
+            "ASSOCIATED_RESET": [ { "value": "S6_AXI_ARESETN", "value_src": "constant", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "100000000", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "RST.S6_AXI_ARESETN": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant", "usage": "all" } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "CLK.S7_AXI_ACLK": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "ASSOCIATED_BUSIF": [ { "value": "S7_AXI", "value_src": "constant", "usage": "all" } ],
+            "ASSOCIATED_RESET": [ { "value": "S7_AXI_ARESETN", "value_src": "constant", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "100000000", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        },
+        "RST.S7_AXI_ARESETN": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant", "usage": "all" } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          }
+        }
+      },
+      "memory_maps": {
+        "S0_AXI": {
+          "description": "S0_AXI memory map",
+          "address_blocks": {
+            "S0_AXI_Reg": {
+              "base_address": "0",
+              "range": "4096",
+              "display_name": "Reg",
+              "description": "Register Block",
+              "usage": "register",
+              "access": "read-write",
+              "parameters": {
+                "OFFSET_BASE_PARAM": [ { "value": "C_S0_AXI_BASEADDR" } ],
+                "OFFSET_HIGH_PARAM": [ { "value": "C_S0_AXI_HIGHADDR" } ]
+              },
+              "registers": {
+                "MUTEX 1": {
+                  "address_offset": "0x0",
+                  "size": 9,
+                  "display_name": "MUTEX Register 1",
+                  "description": "MUTEX Register 1",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 2": {
+                  "address_offset": "0x100",
+                  "size": 9,
+                  "display_name": "MUTEX Register 2",
+                  "description": "MUTEX Register 2",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 3": {
+                  "address_offset": "0x200",
+                  "size": 9,
+                  "display_name": "MUTEX Register 3",
+                  "description": "MUTEX Register 3",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 4": {
+                  "address_offset": "0x300",
+                  "size": 9,
+                  "display_name": "MUTEX Register 4",
+                  "description": "MUTEX Register 4",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 5": {
+                  "address_offset": "0x400",
+                  "size": 9,
+                  "display_name": "MUTEX Register 5",
+                  "description": "MUTEX Register 5",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 6": {
+                  "address_offset": "0x500",
+                  "size": 9,
+                  "display_name": "MUTEX Register 6",
+                  "description": "MUTEX Register 6",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 7": {
+                  "address_offset": "0x600",
+                  "size": 9,
+                  "display_name": "MUTEX Register 7",
+                  "description": "MUTEX Register 7",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 8": {
+                  "address_offset": "0x700",
+                  "size": 9,
+                  "display_name": "MUTEX Register 8",
+                  "description": "MUTEX Register 8",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 9": {
+                  "address_offset": "0x800",
+                  "size": 9,
+                  "display_name": "MUTEX Register 9",
+                  "description": "MUTEX Register 9",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 10": {
+                  "address_offset": "0x900",
+                  "size": 9,
+                  "display_name": "MUTEX Register 10",
+                  "description": "MUTEX Register 10",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 11": {
+                  "address_offset": "0xA00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 11",
+                  "description": "MUTEX Register 11",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 12": {
+                  "address_offset": "0xB00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 12",
+                  "description": "MUTEX Register 12",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 13": {
+                  "address_offset": "0xC00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 13",
+                  "description": "MUTEX Register 13",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 14": {
+                  "address_offset": "0xD00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 14",
+                  "description": "MUTEX Register 14",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 15": {
+                  "address_offset": "0xE00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 15",
+                  "description": "MUTEX Register 15",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 16": {
+                  "address_offset": "0xF00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 16",
+                  "description": "MUTEX Register 16",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "S1_AXI": {
+          "description": "S1_AXI memory map",
+          "address_blocks": {
+            "S1_AXI_Reg": {
+              "base_address": "0",
+              "range": "4096",
+              "usage": "register",
+              "access": "read-write",
+              "parameters": {
+                "OFFSET_BASE_PARAM": [ { "value": "C_S1_AXI_BASEADDR" } ],
+                "OFFSET_HIGH_PARAM": [ { "value": "C_S1_AXI_HIGHADDR" } ]
+              },
+              "registers": {
+                "MUTEX 1": {
+                  "address_offset": "0x0",
+                  "size": 9,
+                  "display_name": "MUTEX Register 1",
+                  "description": "MUTEX Register 1",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 2": {
+                  "address_offset": "0x100",
+                  "size": 9,
+                  "display_name": "MUTEX Register 2",
+                  "description": "MUTEX Register 2",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 3": {
+                  "address_offset": "0x200",
+                  "size": 9,
+                  "display_name": "MUTEX Register 3",
+                  "description": "MUTEX Register 3",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 4": {
+                  "address_offset": "0x300",
+                  "size": 9,
+                  "display_name": "MUTEX Register 4",
+                  "description": "MUTEX Register 4",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 5": {
+                  "address_offset": "0x400",
+                  "size": 9,
+                  "display_name": "MUTEX Register 5",
+                  "description": "MUTEX Register 5",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 6": {
+                  "address_offset": "0x500",
+                  "size": 9,
+                  "display_name": "MUTEX Register 6",
+                  "description": "MUTEX Register 6",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 7": {
+                  "address_offset": "0x600",
+                  "size": 9,
+                  "display_name": "MUTEX Register 7",
+                  "description": "MUTEX Register 7",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 8": {
+                  "address_offset": "0x700",
+                  "size": 9,
+                  "display_name": "MUTEX Register 8",
+                  "description": "MUTEX Register 8",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 9": {
+                  "address_offset": "0x800",
+                  "size": 9,
+                  "display_name": "MUTEX Register 9",
+                  "description": "MUTEX Register 9",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 10": {
+                  "address_offset": "0x900",
+                  "size": 9,
+                  "display_name": "MUTEX Register 10",
+                  "description": "MUTEX Register 10",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 11": {
+                  "address_offset": "0xA00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 11",
+                  "description": "MUTEX Register 11",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 12": {
+                  "address_offset": "0xB00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 12",
+                  "description": "MUTEX Register 12",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 13": {
+                  "address_offset": "0xC00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 13",
+                  "description": "MUTEX Register 13",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 14": {
+                  "address_offset": "0xD00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 14",
+                  "description": "MUTEX Register 14",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 15": {
+                  "address_offset": "0xE00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 15",
+                  "description": "MUTEX Register 15",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 16": {
+                  "address_offset": "0xF00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 16",
+                  "description": "MUTEX Register 16",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "S2_AXI": {
+          "description": "S2_AXI memory map",
+          "address_blocks": {
+            "S2_AXI_Reg": {
+              "base_address": "0",
+              "range": "4096",
+              "usage": "register",
+              "access": "read-write",
+              "parameters": {
+                "OFFSET_BASE_PARAM": [ { "value": "C_S2_AXI_BASEADDR" } ],
+                "OFFSET_HIGH_PARAM": [ { "value": "C_S2_AXI_HIGHADDR" } ]
+              },
+              "registers": {
+                "MUTEX 1": {
+                  "address_offset": "0x0",
+                  "size": 9,
+                  "display_name": "MUTEX Register 1",
+                  "description": "MUTEX Register 1",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 2": {
+                  "address_offset": "0x100",
+                  "size": 9,
+                  "display_name": "MUTEX Register 2",
+                  "description": "MUTEX Register 2",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 3": {
+                  "address_offset": "0x200",
+                  "size": 9,
+                  "display_name": "MUTEX Register 3",
+                  "description": "MUTEX Register 3",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 4": {
+                  "address_offset": "0x300",
+                  "size": 9,
+                  "display_name": "MUTEX Register 4",
+                  "description": "MUTEX Register 4",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 5": {
+                  "address_offset": "0x400",
+                  "size": 9,
+                  "display_name": "MUTEX Register 5",
+                  "description": "MUTEX Register 5",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 6": {
+                  "address_offset": "0x500",
+                  "size": 9,
+                  "display_name": "MUTEX Register 6",
+                  "description": "MUTEX Register 6",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 7": {
+                  "address_offset": "0x600",
+                  "size": 9,
+                  "display_name": "MUTEX Register 7",
+                  "description": "MUTEX Register 7",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 8": {
+                  "address_offset": "0x700",
+                  "size": 9,
+                  "display_name": "MUTEX Register 8",
+                  "description": "MUTEX Register 8",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 9": {
+                  "address_offset": "0x800",
+                  "size": 9,
+                  "display_name": "MUTEX Register 9",
+                  "description": "MUTEX Register 9",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 10": {
+                  "address_offset": "0x900",
+                  "size": 9,
+                  "display_name": "MUTEX Register 10",
+                  "description": "MUTEX Register 10",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 11": {
+                  "address_offset": "0xA00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 11",
+                  "description": "MUTEX Register 11",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 12": {
+                  "address_offset": "0xB00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 12",
+                  "description": "MUTEX Register 12",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 13": {
+                  "address_offset": "0xC00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 13",
+                  "description": "MUTEX Register 13",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 14": {
+                  "address_offset": "0xD00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 14",
+                  "description": "MUTEX Register 14",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 15": {
+                  "address_offset": "0xE00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 15",
+                  "description": "MUTEX Register 15",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 16": {
+                  "address_offset": "0xF00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 16",
+                  "description": "MUTEX Register 16",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "S3_AXI": {
+          "description": "S3_AXI memory map",
+          "address_blocks": {
+            "S3_AXI_Reg": {
+              "base_address": "0",
+              "range": "4096",
+              "usage": "register",
+              "access": "read-write",
+              "parameters": {
+                "OFFSET_BASE_PARAM": [ { "value": "C_S3_AXI_BASEADDR" } ],
+                "OFFSET_HIGH_PARAM": [ { "value": "C_S3_AXI_HIGHADDR" } ]
+              },
+              "registers": {
+                "MUTEX 1": {
+                  "address_offset": "0x0",
+                  "size": 9,
+                  "display_name": "MUTEX Register 1",
+                  "description": "MUTEX Register 1",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 2": {
+                  "address_offset": "0x100",
+                  "size": 9,
+                  "display_name": "MUTEX Register 2",
+                  "description": "MUTEX Register 2",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 3": {
+                  "address_offset": "0x200",
+                  "size": 9,
+                  "display_name": "MUTEX Register 3",
+                  "description": "MUTEX Register 3",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 4": {
+                  "address_offset": "0x300",
+                  "size": 9,
+                  "display_name": "MUTEX Register 4",
+                  "description": "MUTEX Register 4",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 5": {
+                  "address_offset": "0x400",
+                  "size": 9,
+                  "display_name": "MUTEX Register 5",
+                  "description": "MUTEX Register 5",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 6": {
+                  "address_offset": "0x500",
+                  "size": 9,
+                  "display_name": "MUTEX Register 6",
+                  "description": "MUTEX Register 6",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 7": {
+                  "address_offset": "0x600",
+                  "size": 9,
+                  "display_name": "MUTEX Register 7",
+                  "description": "MUTEX Register 7",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 8": {
+                  "address_offset": "0x700",
+                  "size": 9,
+                  "display_name": "MUTEX Register 8",
+                  "description": "MUTEX Register 8",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 9": {
+                  "address_offset": "0x800",
+                  "size": 9,
+                  "display_name": "MUTEX Register 9",
+                  "description": "MUTEX Register 9",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 10": {
+                  "address_offset": "0x900",
+                  "size": 9,
+                  "display_name": "MUTEX Register 10",
+                  "description": "MUTEX Register 10",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 11": {
+                  "address_offset": "0xA00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 11",
+                  "description": "MUTEX Register 11",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 12": {
+                  "address_offset": "0xB00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 12",
+                  "description": "MUTEX Register 12",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 13": {
+                  "address_offset": "0xC00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 13",
+                  "description": "MUTEX Register 13",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 14": {
+                  "address_offset": "0xD00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 14",
+                  "description": "MUTEX Register 14",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 15": {
+                  "address_offset": "0xE00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 15",
+                  "description": "MUTEX Register 15",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 16": {
+                  "address_offset": "0xF00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 16",
+                  "description": "MUTEX Register 16",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "S4_AXI": {
+          "description": "S4_AXI memory map",
+          "address_blocks": {
+            "S4_AXI_Reg": {
+              "base_address": "0",
+              "range": "4096",
+              "usage": "register",
+              "access": "read-write",
+              "parameters": {
+                "OFFSET_BASE_PARAM": [ { "value": "C_S4_AXI_BASEADDR" } ],
+                "OFFSET_HIGH_PARAM": [ { "value": "C_S4_AXI_HIGHADDR" } ]
+              },
+              "registers": {
+                "MUTEX 1": {
+                  "address_offset": "0x0",
+                  "size": 9,
+                  "display_name": "MUTEX Register 1",
+                  "description": "MUTEX Register 1",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 2": {
+                  "address_offset": "0x100",
+                  "size": 9,
+                  "display_name": "MUTEX Register 2",
+                  "description": "MUTEX Register 2",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 3": {
+                  "address_offset": "0x200",
+                  "size": 9,
+                  "display_name": "MUTEX Register 3",
+                  "description": "MUTEX Register 3",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 4": {
+                  "address_offset": "0x300",
+                  "size": 9,
+                  "display_name": "MUTEX Register 4",
+                  "description": "MUTEX Register 4",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 5": {
+                  "address_offset": "0x400",
+                  "size": 9,
+                  "display_name": "MUTEX Register 5",
+                  "description": "MUTEX Register 5",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 6": {
+                  "address_offset": "0x500",
+                  "size": 9,
+                  "display_name": "MUTEX Register 6",
+                  "description": "MUTEX Register 6",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 7": {
+                  "address_offset": "0x600",
+                  "size": 9,
+                  "display_name": "MUTEX Register 7",
+                  "description": "MUTEX Register 7",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 8": {
+                  "address_offset": "0x700",
+                  "size": 9,
+                  "display_name": "MUTEX Register 8",
+                  "description": "MUTEX Register 8",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 9": {
+                  "address_offset": "0x800",
+                  "size": 9,
+                  "display_name": "MUTEX Register 9",
+                  "description": "MUTEX Register 9",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 10": {
+                  "address_offset": "0x900",
+                  "size": 9,
+                  "display_name": "MUTEX Register 10",
+                  "description": "MUTEX Register 10",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 11": {
+                  "address_offset": "0xA00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 11",
+                  "description": "MUTEX Register 11",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 12": {
+                  "address_offset": "0xB00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 12",
+                  "description": "MUTEX Register 12",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 13": {
+                  "address_offset": "0xC00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 13",
+                  "description": "MUTEX Register 13",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 14": {
+                  "address_offset": "0xD00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 14",
+                  "description": "MUTEX Register 14",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 15": {
+                  "address_offset": "0xE00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 15",
+                  "description": "MUTEX Register 15",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 16": {
+                  "address_offset": "0xF00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 16",
+                  "description": "MUTEX Register 16",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "S5_AXI": {
+          "description": "S5_AXI memory map",
+          "address_blocks": {
+            "S5_AXI_Reg": {
+              "base_address": "0",
+              "range": "4096",
+              "usage": "register",
+              "access": "read-write",
+              "parameters": {
+                "OFFSET_BASE_PARAM": [ { "value": "C_S5_AXI_BASEADDR" } ],
+                "OFFSET_HIGH_PARAM": [ { "value": "C_S5_AXI_HIGHADDR" } ]
+              },
+              "registers": {
+                "MUTEX 1": {
+                  "address_offset": "0x0",
+                  "size": 9,
+                  "display_name": "MUTEX Register 1",
+                  "description": "MUTEX Register 1",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 2": {
+                  "address_offset": "0x100",
+                  "size": 9,
+                  "display_name": "MUTEX Register 2",
+                  "description": "MUTEX Register 2",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 3": {
+                  "address_offset": "0x200",
+                  "size": 9,
+                  "display_name": "MUTEX Register 3",
+                  "description": "MUTEX Register 3",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 4": {
+                  "address_offset": "0x300",
+                  "size": 9,
+                  "display_name": "MUTEX Register 4",
+                  "description": "MUTEX Register 4",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 5": {
+                  "address_offset": "0x400",
+                  "size": 9,
+                  "display_name": "MUTEX Register 5",
+                  "description": "MUTEX Register 5",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 6": {
+                  "address_offset": "0x500",
+                  "size": 9,
+                  "display_name": "MUTEX Register 6",
+                  "description": "MUTEX Register 6",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 7": {
+                  "address_offset": "0x600",
+                  "size": 9,
+                  "display_name": "MUTEX Register 7",
+                  "description": "MUTEX Register 7",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 8": {
+                  "address_offset": "0x700",
+                  "size": 9,
+                  "display_name": "MUTEX Register 8",
+                  "description": "MUTEX Register 8",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 9": {
+                  "address_offset": "0x800",
+                  "size": 9,
+                  "display_name": "MUTEX Register 9",
+                  "description": "MUTEX Register 9",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 10": {
+                  "address_offset": "0x900",
+                  "size": 9,
+                  "display_name": "MUTEX Register 10",
+                  "description": "MUTEX Register 10",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 11": {
+                  "address_offset": "0xA00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 11",
+                  "description": "MUTEX Register 11",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 12": {
+                  "address_offset": "0xB00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 12",
+                  "description": "MUTEX Register 12",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 13": {
+                  "address_offset": "0xC00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 13",
+                  "description": "MUTEX Register 13",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 14": {
+                  "address_offset": "0xD00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 14",
+                  "description": "MUTEX Register 14",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 15": {
+                  "address_offset": "0xE00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 15",
+                  "description": "MUTEX Register 15",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 16": {
+                  "address_offset": "0xF00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 16",
+                  "description": "MUTEX Register 16",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "S6_AXI": {
+          "description": "S6_AXI memory map",
+          "address_blocks": {
+            "S6_AXI_Reg": {
+              "base_address": "0",
+              "range": "4096",
+              "usage": "register",
+              "access": "read-write",
+              "parameters": {
+                "OFFSET_BASE_PARAM": [ { "value": "C_S6_AXI_BASEADDR" } ],
+                "OFFSET_HIGH_PARAM": [ { "value": "C_S6_AXI_HIGHADDR" } ]
+              },
+              "registers": {
+                "MUTEX 1": {
+                  "address_offset": "0x0",
+                  "size": 9,
+                  "display_name": "MUTEX Register 1",
+                  "description": "MUTEX Register 1",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 2": {
+                  "address_offset": "0x100",
+                  "size": 9,
+                  "display_name": "MUTEX Register 2",
+                  "description": "MUTEX Register 2",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 3": {
+                  "address_offset": "0x200",
+                  "size": 9,
+                  "display_name": "MUTEX Register 3",
+                  "description": "MUTEX Register 3",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 4": {
+                  "address_offset": "0x300",
+                  "size": 9,
+                  "display_name": "MUTEX Register 4",
+                  "description": "MUTEX Register 4",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 5": {
+                  "address_offset": "0x400",
+                  "size": 9,
+                  "display_name": "MUTEX Register 5",
+                  "description": "MUTEX Register 5",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 6": {
+                  "address_offset": "0x500",
+                  "size": 9,
+                  "display_name": "MUTEX Register 6",
+                  "description": "MUTEX Register 6",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 7": {
+                  "address_offset": "0x600",
+                  "size": 9,
+                  "display_name": "MUTEX Register 7",
+                  "description": "MUTEX Register 7",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 8": {
+                  "address_offset": "0x700",
+                  "size": 9,
+                  "display_name": "MUTEX Register 8",
+                  "description": "MUTEX Register 8",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 9": {
+                  "address_offset": "0x800",
+                  "size": 9,
+                  "display_name": "MUTEX Register 9",
+                  "description": "MUTEX Register 9",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 10": {
+                  "address_offset": "0x900",
+                  "size": 9,
+                  "display_name": "MUTEX Register 10",
+                  "description": "MUTEX Register 10",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 11": {
+                  "address_offset": "0xA00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 11",
+                  "description": "MUTEX Register 11",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 12": {
+                  "address_offset": "0xB00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 12",
+                  "description": "MUTEX Register 12",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 13": {
+                  "address_offset": "0xC00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 13",
+                  "description": "MUTEX Register 13",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 14": {
+                  "address_offset": "0xD00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 14",
+                  "description": "MUTEX Register 14",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 15": {
+                  "address_offset": "0xE00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 15",
+                  "description": "MUTEX Register 15",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 16": {
+                  "address_offset": "0xF00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 16",
+                  "description": "MUTEX Register 16",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "S7_AXI": {
+          "description": "S7_AXI memory map",
+          "address_blocks": {
+            "S7_AXI_Reg": {
+              "base_address": "0",
+              "range": "4096",
+              "usage": "register",
+              "access": "read-write",
+              "parameters": {
+                "OFFSET_BASE_PARAM": [ { "value": "C_S7_AXI_BASEADDR" } ],
+                "OFFSET_HIGH_PARAM": [ { "value": "C_S7_AXI_HIGHADDR" } ]
+              },
+              "registers": {
+                "MUTEX 1": {
+                  "address_offset": "0x0",
+                  "size": 9,
+                  "display_name": "MUTEX Register 1",
+                  "description": "MUTEX Register 1",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 2": {
+                  "address_offset": "0x100",
+                  "size": 9,
+                  "display_name": "MUTEX Register 2",
+                  "description": "MUTEX Register 2",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 3": {
+                  "address_offset": "0x200",
+                  "size": 9,
+                  "display_name": "MUTEX Register 3",
+                  "description": "MUTEX Register 3",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 4": {
+                  "address_offset": "0x300",
+                  "size": 9,
+                  "display_name": "MUTEX Register 4",
+                  "description": "MUTEX Register 4",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 5": {
+                  "address_offset": "0x400",
+                  "size": 9,
+                  "display_name": "MUTEX Register 5",
+                  "description": "MUTEX Register 5",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 6": {
+                  "address_offset": "0x500",
+                  "size": 9,
+                  "display_name": "MUTEX Register 6",
+                  "description": "MUTEX Register 6",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 7": {
+                  "address_offset": "0x600",
+                  "size": 9,
+                  "display_name": "MUTEX Register 7",
+                  "description": "MUTEX Register 7",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 8": {
+                  "address_offset": "0x700",
+                  "size": 9,
+                  "display_name": "MUTEX Register 8",
+                  "description": "MUTEX Register 8",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 9": {
+                  "address_offset": "0x800",
+                  "size": 9,
+                  "display_name": "MUTEX Register 9",
+                  "description": "MUTEX Register 9",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 10": {
+                  "address_offset": "0x900",
+                  "size": 9,
+                  "display_name": "MUTEX Register 10",
+                  "description": "MUTEX Register 10",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 11": {
+                  "address_offset": "0xA00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 11",
+                  "description": "MUTEX Register 11",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 12": {
+                  "address_offset": "0xB00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 12",
+                  "description": "MUTEX Register 12",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 13": {
+                  "address_offset": "0xC00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 13",
+                  "description": "MUTEX Register 13",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 14": {
+                  "address_offset": "0xD00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 14",
+                  "description": "MUTEX Register 14",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 15": {
+                  "address_offset": "0xE00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 15",
+                  "description": "MUTEX Register 15",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                },
+                "MUTEX 16": {
+                  "address_offset": "0xF00",
+                  "size": 9,
+                  "display_name": "MUTEX Register 16",
+                  "description": "MUTEX Register 16",
+                  "is_volatile": true,
+                  "access": "read-write",
+                  "reset_value": "0x0",
+                  "fields": {
+                    "Lock": {
+                      "bit_offset": 0,
+                      "bit_width": 1,
+                      "display_name": "Lock",
+                      "description": "Lock status:\n  0 - Free.\n  1 - Mutex currenly owned by CPUID.\n",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    },
+                    "CPUID": {
+                      "bit_offset": 1,
+                      "bit_width": 8,
+                      "display_name": "CPUID",
+                      "description": "Unique processor ID number.",
+                      "is_volatile": true,
+                      "access": "read-write"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
